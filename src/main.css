@@ -1,3 +1,20 @@
-h1 {
-    color: red;
+:root {
+    font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero > h2 {
+    font-size: 96px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+
+}
+
