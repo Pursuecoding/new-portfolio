@@ -1,5 +1,12 @@
 :root {
-    font-family: 'Poppins', sans-serif;
+    --primary-color: #6c63ff;
+    --bacground-color: #F9F7FE;
+    --main-font: 'Poppins', sans-serif;
+    --accent-font: 'Playfair Display', serif;
+}
+
+body {
+    font-family: var(--main-font);
 }
 
 h1 {
@@ -7,14 +14,31 @@ h1 {
     font-weight: 700;
 }
 
+h3 {
+    color: #272142;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .hero {
     text-align: center;
+    background: var(--bacground-color);
+    padding: 160px 20px;
 }
 
 .hero > h2 {
     font-size: 96px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: var(--accent-font);
 
 }
 
+.btn-style, .btn-style:hover {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: white;
+    background: var(--primary-color);
+    border-radius: 4px;
+    padding: 18px 30px;
+}
