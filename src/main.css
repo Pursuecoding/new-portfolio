@@ -88,3 +88,36 @@ h4 {
     border-radius: 4px;
     margin: 60px;
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .hero > h2 {
+        font-size: 48px;
+        line-height: 2;
+    }
+
+    .btn-style {
+        font-size: 14px;
+    }    
+
+    .app-description-paragraph, .project-link {
+        font-size: 12px;
+        line-height: 1;
+    }    
+}
