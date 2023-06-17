@@ -77,6 +77,10 @@ h5 {
     line-height: 27px;
 }
 
+.hero-container h3 {
+    font-size: 24px;  
+}
+
 .hero-container p {
     text-align: center;
 }
