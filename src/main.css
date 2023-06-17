@@ -39,6 +39,14 @@ h4 {
     margin: 150px 0 40px
 }
 
+h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .hero {
     text-align: center;
     background: var(--bacground-color);
@@ -54,22 +62,26 @@ h4 {
 
 }
 
-.about-hero {
+.hero-container {
     margin-top: 200px;
 }
 
-.about-hero h1 {
+.hero-container h1 {
     font-family: var(--accent-font);
     font-size: 64px;
     line-height: 85.31px;
 }
 
-.about-hero h2 {
+.hero-container h2 {
     font-size: 18px;
     line-height: 27px;
 }
 
-.about-description {
+.hero-container p {
+    text-align: center;
+}
+
+.hero-description {
     line-height: 30px;
     padding-right: 60px;
     margin-bottom: 60px;
@@ -151,23 +163,23 @@ h4 {
         line-height: 1;
     }  
     
-    .about-hero {
+    .hero-container {
         margin-top: 80px;
         padding: 20px;
     }
 
-    .about-hero h1 {
+    .hero-container h1 {
         font-size: 48px;
         line-height: 1;
         text-align: center;
         margin-bottom: 30px;
     }
 
-    .about-hero h2 {
+    .hero-container h2 {
         margin: 30px 5px;
     }
 
-    .about-description {
+    .hero-description {
         font-size: 13px;
         text-align: center;
         margin-bottom: 20px;
