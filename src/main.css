@@ -149,5 +149,32 @@ h4 {
     .app-description-paragraph, .project-link {
         font-size: 12px;
         line-height: 1;
-    }    
+    }  
+    
+    .about-hero {
+        margin-top: 70px;
+        padding: 20px;
+    }
+
+    .about-hero h1 {
+        font-size: 48px;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about-hero h2 {
+        margin: 30px 5px;
+    }
+
+    .about-description {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-right: 10px;
+    }
+
+    .about-btn {
+        margin: 20px;
+    }
 }
