@@ -47,6 +47,10 @@ h5 {
     margin-top: 20px;
 }
 
+.active {
+    color: var(--secondary-color); !important
+}
+
 .hero {
     text-align: center;
     background: var(--bacground-color);
