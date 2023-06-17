@@ -54,6 +54,32 @@ h4 {
 
 }
 
+.about-hero {
+    margin-top: 200px;
+}
+
+.about-hero h1 {
+    font-family: var(--accent-font);
+    font-size: 64px;
+    line-height: 85.31px;
+}
+
+.about-hero h2 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.about-description {
+    line-height: 30px;
+    padding-right: 60px;
+    margin-bottom: 60px;
+}
+
+.about-btn {
+    font-size: 18px;
+    margin-left: 0;
+}
+
 .btn-style, .btn-style:hover {
     font-size: 18px;
     font-weight: 500;
