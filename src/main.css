@@ -152,7 +152,7 @@ h4 {
     }  
     
     .about-hero {
-        margin-top: 70px;
+        margin-top: 80px;
         padding: 20px;
     }
 
@@ -177,4 +177,6 @@ h4 {
     .about-btn {
         margin: 20px;
     }
+
+   
 }
