@@ -78,10 +78,9 @@ h5 {
 }
 
 .hero-container h3 {
-    font-size: 38px; 
+    font-size: 34px; 
     font-weight: 500;
-    text-align: center;
-    padding: 40px; 
+    padding: 40 0px; 
     margin-top: 60px;
 }
 
@@ -133,6 +132,10 @@ h5 {
     border: 1px solid var(--primary-color);
     border-radius: 4px;
     margin: 60px;
+}
+
+.work-heading h1 {
+    margin-right: 150px;
 }
 
 @media (max-width: 600px) {
