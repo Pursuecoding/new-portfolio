@@ -142,6 +142,21 @@ h5 {
     margin-right: 150px;
 }
 
+footer h6 {
+    font-size: 48px;
+    font-family: var(--accent-font);
+    line-height: 63.98px;
+
+}
+
+.work-inquiry {
+    background: var(--bacground-color);
+    border-radius: 10px;
+    margin: 120px 43px;
+}
+
+
+
 @media (max-width: 600px) {
     body {
         text-align: center;
