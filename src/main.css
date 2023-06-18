@@ -155,7 +155,27 @@ footer h6 {
     margin: 120px 43px;
 }
 
+.footer-mail a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
 
+.footer-mail a:hover {
+    color: var(--primary-color);
+}
+
+.icon {
+    font-size: 18px;
+    margin: 20px;
+    padding: 15px 20px;
+    background: var(--bacground-color);
+    border-radius: 50%;
+}
+
+.icon:hover {
+    border: 1px solid var(--primary-color);
+}
 
 @media (max-width: 600px) {
     body {
